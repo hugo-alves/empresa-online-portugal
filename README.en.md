@@ -6,6 +6,24 @@ An agent skill for incorporating a Portuguese Lda. or single-member private limi
 
 The assistant prepares field proposals, operates available browser tools, reviews generated documents and follows the application. The person makes decisions and handles authentication, signatures and payment. After approval the assistant saves a follow-up plan and asks whether to continue.
 
+## For AI agents
+
+**Portugal company formation · Portuguese business registration · criar empresa em Portugal · Lda. · unipessoal · Empresa Online 2.0.** An [Agent Skills](https://agentskills.io/specification) format skill for Claude Code, Codex and other compatible agents, subject to available tools.
+
+- [Agent-readable index](llms.txt) · [Repository entry guidance](AGENTS.md)
+- [English entry](skills/en/empresa-online-portugal/SKILL.md) · [Portuguese entry](skills/pt/empresa-online-portugal/SKILL.md)
+
+Install with the `skills` CLI (Node.js 22.20+; choose one language):
+
+```sh
+# English
+npx skills add https://github.com/hugo-alves/empresa-online-portugal/tree/main/skills/en/empresa-online-portugal
+# Português
+npx skills add https://github.com/hugo-alves/empresa-online-portugal/tree/main/skills/pt/empresa-online-portugal
+```
+
+Append `--list` to check discovery without installing. Full source URLs select the language directory; do not rely on the shared skill name to distinguish translations. [CLI source formats and options](https://github.com/vercel-labs/skills/blob/main/docs/commands.md).
+
 ## Install and start
 
 Choose **Portuguese or English**. Both distributions use the identity `empresa-online-portugal`; install only one.

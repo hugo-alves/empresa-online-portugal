@@ -2,6 +2,16 @@
 
 Updated 10 November 2026. Choose the Portuguese **or** English ZIP: both contain the same `empresa-online-portugal` skill. Do not install both languages simultaneously.
 
+## Direct-source installation for agents
+
+Choose the source URL for your language; both variants have the same skill name. Requires Node.js 22.20+. Append `--list` to discover without installing.
+
+```sh
+npx skills add https://github.com/hugo-alves/empresa-online-portugal/tree/main/skills/en/empresa-online-portugal
+```
+
+[CLI documentation](https://github.com/vercel-labs/skills/blob/main/docs/commands.md).
+
 ## Claude
 
 In Claude open **Customize > Skills**, choose **+ > Create skill > Upload a skill** and upload the ZIP. Enable the skill. Availability depends on account capabilities and policies. [Official instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude).

@@ -14,6 +14,24 @@ spec.loader.exec_module(package)
 
 
 class DistributionTests(unittest.TestCase):
+    def test_agent_entry_points_resolve_to_repository_files(self):
+        raw = 'https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/'
+        indexed = set()
+        for name in ('llms.txt', 'AGENTS.md', 'README.md', 'README.en.md',
+                     'docs/instalar.pt.md', 'docs/install.en.md'):
+            path = REPO / name
+            for href in re.findall(r'\]\(([^)]+)\)', path.read_text()):
+                if href.startswith(raw):
+                    target = REPO / href[len(raw):]
+                    indexed.add(target.relative_to(REPO).as_posix())
+                elif href.startswith(('https://', 'http://')):
+                    continue
+                else:
+                    target = path.parent / href
+                self.assertTrue(target.is_file(), (name, href))
+        for lang in ('pt', 'en'):
+            self.assertIn(f'skills/{lang}/empresa-online-portugal/SKILL.md', indexed)
+
     def copied_skill(self, temp):
         return Path(shutil.copytree(REPO / 'skills/pt/empresa-online-portugal',
                                     Path(temp) / 'empresa-online-portugal'))

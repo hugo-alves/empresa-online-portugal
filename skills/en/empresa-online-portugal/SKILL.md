@@ -1,7 +1,13 @@
 ---
 name: empresa-online-portugal
 description: >-
-  Operate Empresa Online 2.0 to incorporate a Portuguese Lda. or single-member company, prepare field proposals, review documents, coordinate participants and resume applications. Use for online company incorporation or help with an existing application. Registering self-employed activity is a separate process.
+  Help start a company in Portugal: incorporate a Lda. or single-member private limited company, operate Empresa Online 2.0, prepare CAE codes and company objects, review articles and resume applications. Use for "open a company in Portugal", "Portuguese company formation", "business registration", "criar empresa" or "Empresa na Hora online" when the online incorporation route is intended. English version. Self-employed activity registration is separate.
+license: MIT
+metadata:
+  language: en
+  country: PT
+  source: https://github.com/hugo-alves/empresa-online-portugal
+
 ---
 
 # Empresa Online Portugal

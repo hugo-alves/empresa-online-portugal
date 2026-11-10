@@ -2,6 +2,16 @@
 
 Atualizado em 10 de novembro de 2026. Escolha o ZIP português **ou** inglês; ambos contêm a mesma skill `empresa-online-portugal`. Não instale as duas línguas em simultâneo.
 
+## Instalação por URL para agentes
+
+Escolha a URL da língua pretendida; o nome da skill é igual nas duas. Requer Node.js 22.20+. Acrescente `--list` para listar sem instalar.
+
+```sh
+npx skills add https://github.com/hugo-alves/empresa-online-portugal/tree/main/skills/pt/empresa-online-portugal
+```
+
+[CLI documentation](https://github.com/vercel-labs/skills/blob/main/docs/commands.md).
+
 ## Claude
 
 Em Claude, abra **Customize > Skills**, escolha **+ > Create skill > Upload a skill** e carregue o ZIP. Ative a skill. A disponibilidade depende das capacidades e políticas da conta. [Instruções oficiais](https://support.claude.com/en/articles/12512180-use-skills-in-claude).

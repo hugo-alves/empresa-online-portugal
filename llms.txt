@@ -1,0 +1,27 @@
+# Empresa Online Portugal
+
+> Agent Skill for starting a company in Portugal / criar empresa em Portugal through Empresa Online 2.0. Covers Lda. and sociedade unipessoal por quotas. Portuguese and English translations share one skill identity; choose one language directory.
+
+## Load the skill
+
+- [Português — SKILL.md](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/skills/pt/empresa-online-portugal/SKILL.md): Default for Portuguese requests, including criar empresa, abrir sociedade, Lda., unipessoal and Empresa na Hora online when the online service is intended.
+- [English — SKILL.md](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/skills/en/empresa-online-portugal/SKILL.md): Company formation, incorporation and business registration in Portugal. Load this file and its relative references together.
+
+## Installation
+
+- [Portuguese setup](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/docs/instalar.pt.md): Direct language-specific skills CLI URL, Codex and Claude installation.
+- [English setup](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/docs/install.en.md): Direct language-specific skills CLI URL, Codex and Claude installation.
+
+## Workflow references
+
+- [Percurso e fontes oficiais](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/skills/pt/empresa-online-portugal/references/percurso.md): Procedure, official sources, review dates and evidence boundaries.
+- [Journey and official sources](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/skills/en/empresa-online-portugal/references/journey.md): Procedure, official sources, review dates and evidence boundaries.
+- [Registo local privado](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/skills/pt/empresa-online-portugal/references/registo-local.md): Save/resume protocol and record template.
+- [Private local working record](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/skills/en/empresa-online-portugal/references/working-record.md): Save/resume protocol and record template.
+
+## Scope and evidence
+
+The assistant prepares proposals, operates available browser tools, reviews generated documents and resumes from a private local record. The person makes decisions and handles authentication, signatures and payment. Post-registration filings require a separate decision. This is not an official IRN service. Self-employed activity registration is a separate workflow.
+
+- [Testing and limits](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/docs/testing.md): Behavioral exercises used fictional local forms/documents. The real public route was checked to authentication; authenticated end-to-end incorporation was not tested.
+- [MIT license](https://raw.githubusercontent.com/hugo-alves/empresa-online-portugal/main/LICENSE): Repository materials are reusable under MIT; linked official pages retain their own rights.

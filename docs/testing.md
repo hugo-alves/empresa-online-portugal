@@ -56,3 +56,9 @@ These check relative references, matching official-source sets, archive paths/by
 The public service at https://registo.justica.gov.pt/empresa was opened on 9 and 10 November 2026. “Iniciar Serviço” led to IRN authentication. On 9 November the CC/CMD route was followed to Autenticação.gov's method selector. No person authenticated; no real name reservation or application was created.
 
 Not tested: authenticated IRN form, real submissions/signatures/payments/corrections, IRN attachment/CAE validation, official document issuance, automatic RCBE integration, completion of tax/capital/RCBE obligations, every Codex/Claude product, universal browser availability or private-storage suitability in every workspace. Official information must be refreshed for the actual case. Fixture approval, signatures and payment are synthetic assertions only.
+
+## Agent discovery checks
+
+On 10 November 2026, the language-specific source URLs were checked using the skills CLI's `add <source> --list` mode, with telemetry disabled and no skill installation. Each language URL should resolve to one `empresa-online-portugal` entry; use exact subdirectory URLs because the translations share a name. The distribution tests also resolve the links from `llms.txt`, `AGENTS.md` and both READMEs to repository files.
+
+Repository topics, descriptions and the agent index provide discovery signals. They do not establish marketplace listing, search-engine indexing or ranking. No marketplace submission or telemetry-generated installation count is claimed.

@@ -1,7 +1,13 @@
 ---
 name: empresa-online-portugal
 description: >-
-  Operar o portal Empresa Online 2.0 para constituir uma Lda. ou unipessoal em Portugal, preparar propostas de preenchimento, rever documentos, coordenar intervenientes e retomar pedidos. Usar para criar uma sociedade online ou ajudar num pedido existente. A abertura de atividade como trabalhador independente é outro processo.
+  Ajudar a criar empresa em Portugal: constituir uma Lda. ou sociedade unipessoal por quotas, operar a Empresa Online 2.0, preparar CAE e objeto social, rever pacto social e retomar pedidos. Usar para "abrir empresa", "criar sociedade", "Empresa na Hora online" ou "company incorporation in Portugal" quando se pretende o percurso online. Versão em português. Não abrange abertura de atividade como trabalhador independente.
+license: MIT
+metadata:
+  language: pt-PT
+  country: PT
+  source: https://github.com/hugo-alves/empresa-online-portugal
+
 ---
 
 # Empresa Online Portugal
