@@ -1,0 +1,11 @@
+DOCUMENTO SINTÉTICO DE TESTE — NÃO É UM PACTO VÁLIDO
+Versão v1
+Sociedade por quotas: Sociedade Exemplo de Teste, Lda.
+Capital: 2.000 euros.
+Sócia A: quota de 1.200 euros (60%).
+Sócio B: quota de 800 euros (40%).
+Objeto: Prestação de serviços de consultoria em informática.
+Gerência: ambos os sócios A e B.
+Forma de obrigar: assinatura conjunta dos dois gerentes.
+Declaração: o capital será entregue até ao final do primeiro exercício.
+Assinaturas: nenhuma.
